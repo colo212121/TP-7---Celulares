@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/TP-7---Celulares" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="quienes-somos" element={<QuienesSomos />} />
           <Route path="productos" element={<Productos />} />
