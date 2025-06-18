@@ -27,7 +27,7 @@ function CelularCard({ celular }) {
       <h3>{celular.nombre}</h3>
       <p>Marca: {marca?.nombre}</p>
       <p>Precio: ${celular.precio}</p>
-      <Link to={`/producto/${celular.id}`}>Ver detalle</Link>
+      <Link to={`/TP-7---Celulares/producto/${celular.id}`}>Ver detalle</Link>
     </div>
   );
 }
